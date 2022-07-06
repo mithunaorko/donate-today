@@ -87,7 +87,7 @@ h1 {
 }
 
 #input-box input{
-  width: 65%;
+  width: 61%;
   text-align: center;
   font-size: 15px;
   border: none;
@@ -98,6 +98,9 @@ h1 {
   border-bottom: 1px solid #80808047;
 }
 
+#input-box {
+  margin-bottom: 12px;
+}
 
 /* End Donate Section Area */
 
@@ -163,6 +166,23 @@ h1 {
 }
 
 /* End Latest News Area*/
+
+/* Start Get My Update Area*/
+
+form {
+  display: flex;
+  width: 45%;
+  margin-left: 380px;
+  padding: 50px 132px;
+
+}
+
+#input-box {
+  margin-bottom: 12px;
+}
+#email{
+  width: 250px;
+}
 
 /* Start Footer Section Area */
 
