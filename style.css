@@ -1,3 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Aleo", serif;
 }
+
+section{
+    margin-bottom: 120px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+
+/* Start Header Section Area */
+
+#header-area {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.479)),
+    url(images/donation8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+
+.header-area-content {
+  width: 100%;
+  position: absolute;
+  top: 120px;
+  text-align: center;
+  color: white;
+}
+
+.header-area-content p{
+  padding: 25px;
+  font-size: 18px;
+}
+
+.link-button{
+  background: tomato;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+/* End Header Section Area */
+
+/* Start Donate Section Area */
+.donate-area-content{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.donate-area-content p{
+    padding: 25px;
+    font-size: 18px;
+}
+
+.amount-box{
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    padding: 40px;
+}
+
+/* End Donate Section Area */
