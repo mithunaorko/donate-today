@@ -51,13 +51,13 @@ h1 {
 /* End Header Section Area */
 
 /* Start Donate Section Area */
-.donate-area-content {
+.heading-content {
   width: 100%;
   position: relative;
   text-align: center;
 }
 
-.donate-area-content p {
+.heading-content p {
   padding: 25px;
   font-size: 18px;
 }
@@ -131,7 +131,40 @@ h1 {
 
 /* end Donate plane Section Area */
 
+/* Start Latest News Area */
+.news-box {
+  width: 30%;
+  display: block;
+  background-size: cover;
+  float: left;
+  border: 1px solid #80808014;
+  margin: 16px;
+  cursor: pointer;
+}
+
+.news-area {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.news-img img {
+  width: 100%;
+  height: 310px;
+}
+
+.news-img {
+  margin: 15px;
+}
+
+.news-img-heading {
+  padding: 8px;
+}
+
+/* End Latest News Area*/
+
 /* Start Footer Section Area */
+
 #footer-section{
   background: black;
   margin-bottom: 0;
