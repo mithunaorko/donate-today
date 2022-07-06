@@ -86,7 +86,7 @@ h1 {
   margin-top: 49px;
 }
 
-#input-box input{
+#input-box input {
   width: 61%;
   text-align: center;
   font-size: 15px;
@@ -118,19 +118,19 @@ h1 {
   padding: 40px 15px 40px 15px;
 }
 
-#food{
+#food {
   background: #d1f2d1;
 }
-#shelter{
+#shelter {
   background: hwb(352 87% 7%);
 }
-#education{
+#education {
   background: #eee5d4;
 }
 
 .donate-plan-box h2 {
-    padding-top: 12px;
-    padding-bottom: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 /* end Donate plane Section Area */
@@ -174,19 +174,20 @@ form {
   width: 45%;
   margin-left: 380px;
   padding: 50px 132px;
-
 }
 
 #input-box {
   margin-bottom: 12px;
 }
-#email{
+#email {
   width: 250px;
 }
 
+/* End Get My Update Area*/
+
 /* Start Footer Section Area */
 
-#footer-section{
+#footer-section {
   background: black;
   margin-bottom: 0;
   align-items: center;
@@ -194,11 +195,11 @@ form {
   height: 122px;
 }
 
-footer h2{
+footer h2 {
   color: tomato;
   padding: 30px;
 }
-footer p{
+footer p {
   color: white;
 }
 /* /* End Footer Section Area */
