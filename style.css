@@ -8,15 +8,14 @@ body {
   font-family: "Aleo", serif;
 }
 
-section{
-    margin-bottom: 120px;
+section {
+  margin-bottom: 120px;
 }
 
 h1 {
   font-size: 60px;
   font-weight: 700;
 }
-
 
 /* Start Header Section Area */
 
@@ -26,7 +25,7 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 80vh;
+  height: 500px;
 }
 
 .header-area-content {
@@ -37,12 +36,12 @@ h1 {
   color: white;
 }
 
-.header-area-content p{
+.header-area-content p {
   padding: 25px;
   font-size: 18px;
 }
 
-.link-button{
+.link-button {
   background: tomato;
   color: white;
   border-radius: 25px;
@@ -52,22 +51,100 @@ h1 {
 /* End Header Section Area */
 
 /* Start Donate Section Area */
-.donate-area-content{
-    width: 100%;
-    position: absolute;
-    text-align: center;
+.donate-area-content {
+  width: 100%;
+  position: relative;
+  text-align: center;
 }
 
-.donate-area-content p{
-    padding: 25px;
-    font-size: 18px;
+.donate-area-content p {
+  padding: 25px;
+  font-size: 18px;
 }
 
-.amount-box{
-    width: 30px;
-    height: 30px;
-    background-color: aqua;
-    padding: 40px;
+.amount-box-area {
+  display: flex;
+  justify-content: center;
 }
+
+.amount-box {
+  align-items: center;
+  padding: 40px;
+  height: 23%;
+  border-radius: 5px;
+  margin: 10px;
+  background: #c9a8a329;
+}
+#box-design {
+  border: 2px solid rgb(160, 77, 62);
+  background: #de91df30;
+  padding: 38px;
+}
+
+#donated-text-btn-area {
+  text-align: center;
+  margin-top: 49px;
+}
+
+#input-box input{
+  width: 15%;
+  text-align: center;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  margin: 12px 0;
+  box-sizing: border-box;
+}
+
 
 /* End Donate Section Area */
+
+/* Start Donate plane Section Area */
+
+.donate-plan {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.donate-plan-box {
+  width: 20%;
+  margin: 8px;
+  padding: 40px 15px 40px 15px;
+}
+
+#food{
+  background: #d1f2d1;
+}
+#shelter{
+  background: hwb(352 87% 7%);
+}
+#education{
+  background: #eee5d4;
+}
+
+.donate-plan-box h2 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/* end Donate plane Section Area */
+
+/* Start Footer Section Area */
+#footer-section{
+  background: black;
+  margin-bottom: 0;
+  align-items: center;
+  text-align: center;
+  height: 122px;
+}
+
+footer h2{
+  color: tomato;
+  padding: 30px;
+}
+footer p{
+  color: white;
+}
+/* /* End Footer Section Area */
