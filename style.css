@@ -87,7 +87,7 @@ h1 {
 }
 
 #input-box input{
-  width: 15%;
+  width: 65%;
   text-align: center;
   font-size: 15px;
   border: none;
@@ -95,6 +95,7 @@ h1 {
   padding: 12px 20px;
   margin: 12px 0;
   box-sizing: border-box;
+  border-bottom: 1px solid #80808047;
 }
 
 
