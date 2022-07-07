@@ -74,6 +74,7 @@ h1 {
   border-radius: 5px;
   margin: 10px;
   background: #c9a8a329;
+  cursor: pointer;
 }
 #box-design {
   border: 2px solid rgb(160, 77, 62);
